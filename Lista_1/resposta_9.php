@@ -1,0 +1,5 @@
+<?php
+    $valor1 = $_POST["valor1"];
+    $valor2 = $_POST["valor2"];
+    $perimetro = ($valor1 + $valor2) * 2;
+    echo "O valor do perímetro é: $perimetro";
